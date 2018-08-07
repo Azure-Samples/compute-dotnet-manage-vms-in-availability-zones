@@ -1,10 +1,10 @@
 ---
 services: Compute
-platforms: .Net
+platforms: dotnet
 author: anuchandy
 ---
 
-# Getting Started with Compute - Manage Zonal Virtual Machine - in .Net #
+# Manage virtual machines in availability zones #
 
           Azure Compute sample for managing virtual machines -
            - Create a zonal virtual machine with implicitly zoned related resources (PublicIP, Disk)
@@ -17,7 +17,7 @@ author: anuchandy
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-net/blob/Fluent/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/compute-dotnet-manage-vms-in-availability-zones.git
 
