@@ -4,18 +4,18 @@ languages:
 - csharp
 products:
 - azure
-services: Compute
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Compute
+- platforms: dotnet
 ---
 
 # Manage virtual machines in availability zones #
 
-          Azure Compute sample for managing virtual machines -
-           - Create a zonal virtual machine with implicitly zoned related resources (PublicIP, Disk)
-           - Creates a zonal PublicIP address
-           - Creates a zonal managed data disk
-           - Create a zonal virtual machine and associate explicitly created zonal PublicIP and data disk.
+ Azure Compute sample for managing virtual machines -
+  - Create a zonal virtual machine with implicitly zoned related resources (PublicIP, Disk)
+  - Creates a zonal PublicIP address
+  - Creates a zonal managed data disk
+  - Create a zonal virtual machine and associate explicitly created zonal PublicIP and data disk.
 
 
 ## Running this Sample ##
