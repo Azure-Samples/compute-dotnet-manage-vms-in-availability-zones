@@ -7,6 +7,7 @@ products:
 extensions:
 - services: Compute
 - platforms: dotnet
+description: "Azure Compute sample for managing virtual machines."
 ---
 
 # Manage virtual machines in availability zones #
