@@ -7,10 +7,9 @@ products:
 extensions:
 - services: Compute
 - platforms: dotnet
-description: "Azure Compute sample for managing virtual machines."
 ---
 
-# Manage virtual machines in availability zones
+# Manage virtual machines in availability zones #
 
  Azure Compute sample for managing virtual machines -
   - Create a zonal virtual machine with implicitly zoned related resources (PublicIP, Disk)
@@ -19,7 +18,7 @@ description: "Azure Compute sample for managing virtual machines."
   - Create a zonal virtual machine and associate explicitly created zonal PublicIP and data disk.
 
 
-## Running this Sample
+## Running this Sample ##
 
 To run this sample:
 
@@ -33,7 +32,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
     bin\Debug\net452\ManageZonalVirtualMachine.exe
 
-## More information
+## More information ##
 
 [Azure Management Libraries for C#](https://github.com/Azure/azure-sdk-for-net/tree/Fluent)
 [Azure .Net Developer Center](https://azure.microsoft.com/en-us/develop/net/)
